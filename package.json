@@ -1,0 +1,29 @@
+{
+  "name": "qqbotsdk-docs",
+  "version": "0.0.0",
+  "description": "PHPQQBot框架文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QQBotSDK/Docs.git"
+  },
+  "author": "CoolPlayLin <CoolPlayLin@foxmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/QQBotSDK/Docs/issues"
+  },
+  "homepage": "https://github.com/QQBotSDK/Docs#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "vitepress": "1.0.0-rc.42"
+  },
+  "dependencies": {
+    "vue": "^3.4.19"
+  }
+}
