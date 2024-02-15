@@ -1,28 +1,19 @@
 import { defineConfig } from 'vitepress'
+import en from "./locale/en"
+import zh from "./locale/zh"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "PHPQQBot 框架文档",
-  description: "基于 QQ开放平台API 实现的机器人框架",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+  locales: {
+    root: {
+      label: '简体中文',
+      link: "/",
+      ...zh,
+    },
+    en: {
+      label: 'English',
+      link: "/en/",
+      ...en
+    }
   }
 })

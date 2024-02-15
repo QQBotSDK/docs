@@ -3,17 +3,16 @@
 layout: home
 
 hero:
-  name: "PHPQQBot 框架"
-  text: "基于 QQ开放平台API 实现的机器人框架"
-  tagline: "为开发者提供一个易使用、开发效率高的开发框架"
+  name: "PHP QQbot Framework"
+  text: QQbot framework based on Bot Development API
+  tagline: Provide an easy & high development efficiency framework for developers
   actions:
     - theme: brand
-      text: 立即开始
+      text: Fet Started
       link: /get-started/
     - theme: alt
       text: Github
       link: https://github.com/QQBotSDK/PHPPulginServer/
-
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
