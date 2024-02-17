@@ -1,7 +1,20 @@
 import { createRequire } from "module";
-import { defineConfig } from "vitepress";
+import { defineConfig, type DefaultTheme } from "vitepress";
+import { readdirSync } from "node:fs";
+import { resolve } from "node:path";
 
-const require = createRequire(import.meta.url)
+const require = createRequire(import.meta.url);
+
+function apiSidebar(): DefaultTheme.SidebarItem[] {
+  return readdirSync(resolve("docs", "api"))
+    .filter((dir) => dir !== "index.md")
+    .map((dir) => {
+      return {
+        text: dir.replace(".md", ""),
+        link: dir,
+      };
+    });
+}
 
 const zh_CN = defineConfig({
   lang: "zh-Hans",
@@ -13,24 +26,26 @@ const zh_CN = defineConfig({
       copyright: "Copyright © 2024-present CoolPlayLin & Contributors",
     },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
+    nav: [],
 
-    sidebar: [
-      {
-        text: "Examples",
+    sidebar: {
+      "/guide/": {
+        base: "/guide/",
+        items: [],
+      },
+      "/api/": {
+        base: "/api/",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          {
+            text: "API 索引",
+            link: "index",
+          },
+          ...apiSidebar(),
         ],
       },
-    ],
+    },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/QQBotSDK/Docs" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/QQBotSDK/Docs" }],
   },
 });
 
