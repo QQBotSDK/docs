@@ -34,6 +34,12 @@ function Send_Guild_Message($channel_id,$content=null,$msg_id=null,$image=null,$
 | ---- | ---- | ---- |
 | N/A  |      |      |
 
+- 示例
+
+```php
+
+```
+
 ### Get_Message_Info
 
 获取消息的详情信息
@@ -57,6 +63,12 @@ function Get_Message_Info($channel_id,$msg_id)
 | ---- | ---- | ---- |
 | N/A  |      |      |
 
+- 示例
+
+```php
+
+```
+
 ### Get_Guild_Info
 
 获取频道信息
@@ -78,6 +90,12 @@ function Get_Guild_Info($guild_id)
 | 名称 | 类型 | 描述 |
 | ---- | ---- | ---- |
 | N/A  |      |      |
+
+- 示例
+
+```php
+
+```
 
 ### Get_Channel_Info
 
@@ -101,6 +119,12 @@ function Get_Channel_Info($channel_id)
 | ---- | ---- | ---- |
 | N/A  |      |      |
 
+- 示例
+
+```php
+
+```
+
 ### Get_Channel_List
 
 获取频道的子频道列表
@@ -123,6 +147,12 @@ function Get_Channel_List($guild_id)
 | ---- | ---- | ---- |
 | N/A  |      |      |
 
+- 示例
+
+```php
+
+```
+
 ### Get_Plugin_Return
 
 返回日志
@@ -138,3 +168,9 @@ function Get_Plugin_Return()
 | 名称 | 类型 | 描述 |
 | ---- | ---- | ---- |
 | N/A  |      |      |
+
+- 示例
+
+```php
+
+```

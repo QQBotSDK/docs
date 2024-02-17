@@ -21,6 +21,12 @@ Compatible($content,$botuid)
 | ---- | ----- | ---- |
 | N/A  | array |      |
 
+- 示例
+
+```php
+
+```
+
 ## Get_Event_Name
 
 根据 id 获取特定的事件名称
@@ -42,3 +48,10 @@ Get_Event_Name($event)
 | 名称 | 类型   | 描述   |
 | ---- | ------ | ------ |
 | N/A  | string | 事件名 |
+
+
+- 示例
+
+```php
+
+```

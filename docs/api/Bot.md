@@ -24,6 +24,12 @@ function Get_Bot_Info()
 | ---- | ---- | ---- |
 | N/A  |      |      |
 
+- 示例
+
+```php
+
+```
+
 ### Get_Bot_Guild_List
 
 - 定义
@@ -37,3 +43,9 @@ function Get_Bot_Guild_List()
 | 名称 | 类型 | 描述 |
 | ---- | ---- | ---- |
 | N/A  |      |      |
+
+- 示例
+
+```php
+
+```

@@ -33,6 +33,12 @@ function Send_Group_Message($group_openid,$content=null,$msg_id=null,$markdown=n
 | ---- | ---- | ---- |
 | N/A  |      |      |
 
+- 示例
+
+```php
+
+```
+
 ### Get_Plugin_Return
 
 返回日志
@@ -48,3 +54,9 @@ function Get_Plugin_Return()
 | 名称 | 类型 | 描述 |
 | ---- | ---- | ---- |
 | N/A  |      |      |
+
+- 示例
+
+```php
+
+```
