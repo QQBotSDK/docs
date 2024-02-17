@@ -13,6 +13,7 @@ export default defineConfig({
       },
     ],
   ],
+  cleanUrls: true,
   locales: {
     root: {
       label: "简体中文",

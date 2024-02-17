@@ -7,7 +7,7 @@ const require = createRequire(import.meta.url);
 
 function apiSidebar(): DefaultTheme.SidebarItem[] {
   return readdirSync(resolve("docs", "api"))
-    .filter((dir) => dir !== "index.md")
+    .filter((dir) => dir !== "api.md")
     .map((dir) => {
       return {
         text: dir.replace(".md", ""),
@@ -36,10 +36,6 @@ const zh_CN = defineConfig({
       "/api/": {
         base: "/api/",
         items: [
-          {
-            text: "API 索引",
-            link: "index",
-          },
           ...apiSidebar(),
         ],
       },
