@@ -1,19 +1,10 @@
 # 频道 API
 
-## 类构造函数
-
 - 定义
 
 ```php
-public function __construct($url,$headers)
+class GuildAPI
 ```
-
-- 参数
-
-| 名称     | 类型   | 默认值 | 描述              |
-| -------- | ------ | ------ | ----------------- |
-| $url     | string |        | 机器人 API 的地址 |
-| $headers | string |        |                   |
 
 ## 类方法
 

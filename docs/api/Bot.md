@@ -1,19 +1,10 @@
 # 机器人 API
 
-## 类构造器
-
 - 定义
 
 ```php
-public function __construct($url, $headers)
+class BotAPI
 ```
-
-- 参数
-
-| 名称     | 类型   | 默认值 | 描述              |
-| -------- | ------ | ------ | ----------------- |
-| $url     | string |        | 机器人 API 的地址 |
-| $headers | string |        |                   |
 
 ## 类方法
 
