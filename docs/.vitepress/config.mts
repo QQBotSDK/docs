@@ -10,7 +10,7 @@ export default defineConfig({
       "link",
       {
         rel: "favicon",
-        href: "/favicon.ico"
+        href: "/PHPBotPluginServer/Docs/favicon.ico"
       },
     ],
   ],
