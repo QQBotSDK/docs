@@ -22,6 +22,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build docs
-        run: pnpm run build
+        run: pnpm run docs:build
       - name: Lint docs with prettier
         run: pnpm run format:check
