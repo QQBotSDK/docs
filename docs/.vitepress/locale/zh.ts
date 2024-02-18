@@ -26,7 +26,12 @@ const zh_CN = defineConfig({
       copyright: "Copyright © 2024-present CoolPlayLin & Contributors",
     },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [],
+    nav: [
+      {
+        text: "API 参考",
+        link: "/api/Bot",
+      },
+    ],
 
     sidebar: {
       "/guide/": {
@@ -35,9 +40,7 @@ const zh_CN = defineConfig({
       },
       "/api/": {
         base: "/api/",
-        items: [
-          ...apiSidebar(),
-        ],
+        items: [...apiSidebar()],
       },
     },
 

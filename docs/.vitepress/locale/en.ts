@@ -14,8 +14,10 @@ const en_US = defineConfig({
       },
       // https://vitepress.dev/reference/default-theme-config
       nav: [
-        { text: "Home", link: "/" },
-        { text: "Examples", link: "/markdown-examples" },
+        {
+          text: "API References",
+          link: "/en/api/Bot"
+        }
       ],
   
       sidebar: [

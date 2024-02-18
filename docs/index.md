@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /get-started
+      link: /guide/get-started
     - theme: brand
       text: API 参考
       link: /api/Bot
@@ -34,7 +34,7 @@ hero:
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, rgb(154, 186, 7) 15%, rgb(44, 150, 120));
 
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgb(26, 148, 188) 50%, rgb(85, 187, 138) 50%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgb(26, 148, 188) 50%, rgb(85, 187, 138) 50%);       
   --vp-home-hero-image-filter: blur(44px);
 }
 </style>
