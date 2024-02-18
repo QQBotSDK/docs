@@ -26,7 +26,6 @@ hero:
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-
 <style>
   :root {
   --vp-home-hero-name-color: transparent;
@@ -36,4 +35,3 @@ hero:
   --vp-home-hero-image-filter: blur(44px);
 }
 </style>
-

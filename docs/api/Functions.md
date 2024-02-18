@@ -49,7 +49,6 @@ Get_Event_Name($event)
 | ---- | ------ | ------ |
 | N/A  | string | 事件名 |
 
-
 - 示例
 
 ```php

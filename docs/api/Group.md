@@ -5,6 +5,7 @@
 ```php
 class GroupAPI
 ```
+
 ## 类方法
 
 ### Send_Group_Message
