@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/node": "^20.11.17",
     "prettier": "^3.2.5",
-    "vitepress": "1.0.0-rc.42"
+    "vitepress": "1.0.0-rc.43"
   },
   "dependencies": {
     "vue": "^3.4.19"
