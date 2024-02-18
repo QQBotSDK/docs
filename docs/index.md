@@ -14,9 +14,6 @@ hero:
     - theme: brand
       text: 立即开始
       link: /guide/get-started
-    - theme: brand
-      text: API 参考
-      link: /api/Bot
     - theme: alt
       text: Github
       link: https://github.com/QQBotSDK/PHPPulginServer/
