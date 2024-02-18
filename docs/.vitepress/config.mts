@@ -4,7 +4,7 @@ import zh from "./locale/zh";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/PHPBotPluginServer/Docs",
+  base: "/PHPBotPluginServer/Docs/",
   head: [
     [
       "link",
