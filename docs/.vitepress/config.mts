@@ -4,13 +4,13 @@ import zh from "./locale/zh";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/PHPBotPluginServer/Docs/",
+  base: "/",
   head: [
     [
       "link",
       {
         rel: "favicon",
-        href: "/PHPBotPluginServer/Docs/favicon.ico"
+        href: "/favicon.ico"
       },
     ],
   ],

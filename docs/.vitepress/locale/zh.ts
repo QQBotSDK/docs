@@ -21,6 +21,9 @@ const zh_CN = defineConfig({
   title: "PHPQQBot 框架",
   description: "基于 QQ开放平台API 实现的机器人框架",
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     footer: {
       message: "赣ICP备19012475号",
       copyright: "Copyright © 2024-present CoolPlayLin & Contributors",
