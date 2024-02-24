@@ -18,12 +18,15 @@ hero:
       text: Github
       link: https://github.com/QQBotSDK/PHPPulginServer/
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Fast Deploy
+    icon: ⚡
+    details: You can deploy your QQbot on a virtual machine in minutes.
+  - title: Works Right Out of the Box
+    icon: 📦
+    details: You can dock the plugins repository directly after configuring the account on the QQbot cloud development platform.
+  - title: Trustworthy
+    icon: 🛡️
+    details: You can use plugins without any worries since all of them are open source.
 ---
 
 <style>

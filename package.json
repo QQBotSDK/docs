@@ -7,8 +7,8 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "format": "prettier --write --cache docs/**/*.md",
-    "format:check": "prettier --check docs/**/*.md"
+    "format": "prettier --write --cache docs/**/*.md docs/**/*.ts docs/**/*.mts",
+    "format:check": "prettier --check docs/**/*.md docs/**/*.ts docs/**/*.mts"
   },
   "repository": {
     "type": "git",

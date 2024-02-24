@@ -3,14 +3,14 @@ import { defineConfig } from "vitepress";
 
 const require = createRequire(import.meta.url);
 
-const en_US = defineConfig({
-  lang: "en-US",
+export const en = defineConfig({
+  lang: "en",
   title: "PHP QQBot Framework",
   description: "QQbot framework based on Bot Development API",
   themeConfig: {
     footer: {
-      message: "赣ICP备19012475号",
-      copyright: "Copyright © 2024 CoolPlayLin & Contributors",
+      message: "蜀ICP备2023036015号-1",
+      copyright: "Copyright © 2024 JSRCode, CoolPlayLin & Contributors",
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -33,5 +33,3 @@ const en_US = defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/QQBotSDK/Docs" }],
   },
 });
-
-export default en_US;

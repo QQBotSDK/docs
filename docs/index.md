@@ -13,16 +13,19 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /guide/get-started
+      link: /guide/what-is-PHPQQBot
     - theme: alt
       text: Github
       link: https://github.com/QQBotSDK/PHPPulginServer/
 features:
   - title: 快速部署
-    details: 在虚拟主机上就可以部署的QQ器人
-  - title: 简单易用
+    icon: ⚡
+    details: 在虚拟主机上就可以部署的QQ机器人
+  - title: 开箱即用
+    icon: 📦
     details: 在机器人云开发平台配置机器人账户后可直接对接插件库
   - title: 安全放心
+    icon: 🛡️
     details: 插件库主程序全部开源，安全放心
 ---
 
