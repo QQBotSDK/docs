@@ -16,7 +16,10 @@ hero:
       link: /guide/what-is-PHPQQBot
     - theme: alt
       text: Github
-      link: https://github.com/QQBotSDK/PHPPulginServer/
+      link: https://github.com/QQBotSDK/PHPPluginServer/
+    - theme: alt
+      text: Gitee
+      link: https://gitee.com/QQBotSDK/PHPPluginServer/
 features:
   - title: 快速部署
     icon: ⚡

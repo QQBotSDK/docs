@@ -36,24 +36,14 @@ function guideSidebar(): DefaultTheme.SidebarItem[] {
         },
         {
           text: "部署",
-          link: "",
+          link: "install",
         },
       ],
     },
     {
       text: "插件开发",
-      collapsed: true,
-      items: [
-        {
-          text: "插件的基本格式",
-          link: "",
-        },
-        {
-          text: "插件开发 API 参考",
-          link: "about",
-          base: "/api/"
-        },
-      ]
+      link: "about",
+      base: "/api/"
     }
   ];
 }
@@ -84,8 +74,16 @@ export const zh = defineConfig({
         activeMatch: "^/api/"
       },
       {
-        text: "机器人云平台",
+        text: "更新日志",
+        link: "/updatelog"
+      },
+      {
+        text: "框架官网",
         link: "https://bot.ssyapi.com/",
+      },
+      {
+        text: "机器人云平台",
+        link: "https://cloud.bot.ssyapi.com/",
       },
     ],
 
