@@ -83,7 +83,7 @@ config字段内参数填写示例：
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-不知道可以订阅什么事件？跳到[可订阅事件列表](./event_list)。
+不知道可以订阅什么事件？跳到[可订阅事件列表](./event-list)。
 
 </div>
 
