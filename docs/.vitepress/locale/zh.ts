@@ -17,7 +17,22 @@ const require = createRequire(import.meta.url);
 // }
 
 function apiSidebar(): DefaultTheme.SidebarItem[] {
-  return []
+  return [    
+    {
+    text: "基础配置",
+    collapsed: true,
+    items: [
+      {
+        text: "快速开始插件开发",
+        link: "get-started",
+      },
+      {
+        text: "订阅权限列表",
+        link: "event-list",
+      },
+    ],
+  },
+]
 }
 
 function guideSidebar(): DefaultTheme.SidebarItem[] {
@@ -70,7 +85,7 @@ export const zh = defineConfig({
       },
       {
         text: "开发者文档",
-        link: "/api/about",
+        link: "/api/get-started",
         activeMatch: "^/api/"
       },
       {
