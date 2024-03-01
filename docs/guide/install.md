@@ -36,7 +36,7 @@ http://您的域名/二级目录/Install
 
 安装页面预览：
 
-![install-1](./install-1.png)
-![install-2](./install-2.png)
-![install-3](./install-3.png)
-![install-4](./install-4.png)
+![install-1](/guide/install-1.png)
+![install-2](/guide/install-2.png)
+![install-3](/guide/install-3.png)
+![install-4](/guide/install-4.png)

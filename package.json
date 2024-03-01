@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/QQBotSDK/Docs#readme",
   "devDependencies": {
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.11.24",
     "prettier": "^3.2.5",
     "vitepress": "1.0.0-rc.44"
   },
   "dependencies": {
-    "vue": "^3.4.19"
+    "vue": "^3.4.21"
   }
 }

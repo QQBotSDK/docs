@@ -17,22 +17,22 @@ const require = createRequire(import.meta.url);
 // }
 
 function apiSidebar(): DefaultTheme.SidebarItem[] {
-  return [    
+  return [
     {
-    text: "基础配置",
-    collapsed: true,
-    items: [
-      {
-        text: "快速开始插件开发",
-        link: "get-started",
-      },
-      {
-        text: "订阅权限列表",
-        link: "event-list",
-      },
-    ],
-  },
-]
+      text: "基础配置",
+      collapsed: true,
+      items: [
+        {
+          text: "快速开始插件开发",
+          link: "get-started",
+        },
+        {
+          text: "订阅权限列表",
+          link: "event-list",
+        },
+      ],
+    },
+  ];
 }
 
 function guideSidebar(): DefaultTheme.SidebarItem[] {
@@ -58,8 +58,8 @@ function guideSidebar(): DefaultTheme.SidebarItem[] {
     {
       text: "插件开发",
       link: "about",
-      base: "/api/"
-    }
+      base: "/api/",
+    },
   ];
 }
 
@@ -81,16 +81,16 @@ export const zh = defineConfig({
       {
         text: "导航",
         link: "/guide/what-is-PHPQQBot",
-        activeMatch: "^/guide/"
+        activeMatch: "^/guide/",
       },
       {
         text: "开发者文档",
         link: "/api/get-started",
-        activeMatch: "^/api/"
+        activeMatch: "^/api/",
       },
       {
         text: "更新日志",
-        link: "/updatelog"
+        link: "/updatelog",
       },
       {
         text: "框架官网",

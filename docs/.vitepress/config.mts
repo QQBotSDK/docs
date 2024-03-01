@@ -5,7 +5,7 @@ import { zh } from "./locale/zh";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   sitemap: {
-    hostname: "https://docs.bot.ssyapi.com"
+    hostname: "https://docs.bot.ssyapi.com",
   },
   themeConfig: {
     search: {
