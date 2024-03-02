@@ -23,12 +23,20 @@ function apiSidebar(): DefaultTheme.SidebarItem[] {
       collapsed: true,
       items: [
         {
+          text: "关于",
+          link: "about",
+        },
+        {
           text: "快速开始插件开发",
           link: "get-started",
         },
         {
           text: "订阅权限列表",
           link: "event-list",
+        },
+        {
+          text: "什么是插件独立管理后台",
+          link: "what-admin",
         },
       ],
     },
@@ -85,7 +93,7 @@ export const zh = defineConfig({
       },
       {
         text: "开发者文档",
-        link: "/api/get-started",
+        link: "/api/about",
         activeMatch: "^/api/",
       },
       {
