@@ -19,7 +19,7 @@ const require = createRequire(import.meta.url);
 function apiSidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "基础配置",
+      text: "插件开发-基础配置",
       collapsed: true,
       items: [
         {
@@ -42,6 +42,34 @@ function apiSidebar(): DefaultTheme.SidebarItem[] {
           text: "插件主体开发",
           link: "main-code",
         },
+        {
+          text: "怎么调用封装好的API函数",
+          link: "how-use-function",
+        },
+      ],
+    },
+    {
+      text: "事件data",
+      collapsed: true,
+      items: [
+        {
+          text: "什么是事件data？",
+          link: "event-data",
+        },
+        {
+          text: "频道普通消息data",
+          link: "guild-messgae",
+        },
+        {
+          text: "频道普通消息data",
+          link: "group-messgae",
+        },
+      ],
+    },
+    {
+      text: "预置的Mysql操作库使用",
+      collapsed: true,
+      items: [
       ],
     },
   ];
