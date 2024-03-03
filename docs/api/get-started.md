@@ -144,3 +144,9 @@ config字段内参数填写示例：
 ```
 
 :::
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+接下来可以开始编写插件主体程序了，跳到[插件主体编写](/api/main-code)。
+
+</div>

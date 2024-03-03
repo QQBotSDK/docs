@@ -38,6 +38,10 @@ function apiSidebar(): DefaultTheme.SidebarItem[] {
           text: "什么是插件独立管理后台",
           link: "what-admin",
         },
+        {
+          text: "插件主体开发",
+          link: "main-code",
+        },
       ],
     },
   ];
