@@ -3,11 +3,13 @@
 本框架插件位于插件库的Plugin目录下，
 开发插件请先在Plugin目录下创建一个文件夹（不建议使用中文）
 文件夹内创建以下几个文件：
+
 ```
 .
 ├─ Main.php
 ├─ Config.json
 ```
+
 如图所示：
 ![createflie-1.png](/api/createflie-1.png)
 
@@ -44,15 +46,15 @@ Config.json文件：
 
 config字段内参数说明：
 
-| 参数           | 是否必填 | 类型 | 说明                                       |
-| -------------- | -------- | ---- | ---------------------------------------- |
+| 参数           | 是否必填 | 类型 | 说明                                      |
+| -------------- | -------- | ---- | ----------------------------------------- |
 | name           | 是       | text | 插件名                                    |
 | info           | 是       | text | 插件介绍                                  |
 | author         | 是       | text | 插件作者                                  |
 | version        | 是       | text | 插件版本                                  |
-| pluginadmin    | 是       | bool | 是否拥有独立后台[只能填写true或者false]     |
+| pluginadmin    | 是       | bool | 是否拥有独立后台[只能填写true或者false]   |
 | pluginadminurl | 是       | text | 独立后台地址                              |
-| mysql          | 是       | bool | 是否申请数据库权限[只能填写true或者false]   |
+| mysql          | 是       | bool | 是否申请数据库权限[只能填写true或者false] |
 
 什么是插件独立后台？[独立后台相关介绍](/api/what-admin)
 

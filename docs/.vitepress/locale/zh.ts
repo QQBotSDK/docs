@@ -69,8 +69,7 @@ function apiSidebar(): DefaultTheme.SidebarItem[] {
     {
       text: "预置的Mysql操作库使用",
       collapsed: true,
-      items: [
-      ],
+      items: [],
     },
   ];
 }

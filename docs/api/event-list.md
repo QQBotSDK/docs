@@ -23,4 +23,3 @@
 | INTERACTION_CREATE      | 互动消息创建事件           | 否                                       |
 | MESSAGE_AUDIT_PASS      | 主动消息审核通过事件       | 否                                       |
 | MESSAGE_AUDIT_REJECT    | 主动消息审核不通过事件     | 否                                       |
-
