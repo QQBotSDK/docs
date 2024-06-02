@@ -1,18 +1,27 @@
 english-docs:
   - changed-files:
-      - any-glob-to-any-file: "docs/en/*"
-      - any-glob-to-any-file: "docs/en/**"
+      - any-glob-to-any-file:
+          - "docs/en/*"
+          - "docs/en/**"
 
-workflow:
+workflows:
   - changed-files:
-      - any-glob-to-any-file: ".github/workflows/*"
-      - any-glob-to-any-file: ".github/workflows/**"
+      - any-glob-to-any-file:
+          - ".github/workflows/*"
+          - ".github/workflows/**"
 
 dependencies:
   - changed-files:
-      - any-glob-to-any-file: "package.json"
-      - any-glob-to-any-file: "pnpm-lock.yaml"
+      - any-glob-to-any-file:
+          - "package.json"
+          - "pnpm-lock.yaml"
 
 docs-configuration:
   - changed-files:
-      - any-glob-to-any-file: "**/.vitepress/**"
+      - any-glob-to-any-file:
+          - "**/.vitepress/**"
+
+lock-file:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "pnpm-lock.yaml"
