@@ -1,0 +1,18 @@
+english-docs:
+  - changed-files:
+      - any-glob-to-any-file: "docs/en/*"
+      - any-glob-to-any-file: "docs/en/**"
+
+workflow:
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/*"
+      - any-glob-to-any-file: ".github/workflows/**"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file: "package.json"
+      - any-glob-to-any-file: "pnpm-lock.yaml"
+
+docs-configuration:
+  - changed-files:
+      - any-glob-to-any-file: "**/.vitepress/**"

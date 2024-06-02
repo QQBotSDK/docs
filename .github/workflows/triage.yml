@@ -1,0 +1,18 @@
+name: Triage Pull Requests
+on:
+  pull_request_target:
+    types: [opened, synchronize, closed]
+
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Triage
+        uses: actions/labeler@v5
+        with:
+          configuration-path: .github/policy/triage.yml
