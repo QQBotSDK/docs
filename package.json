@@ -22,7 +22,7 @@
   "homepage": "https://github.com/QQBotSDK/Docs#readme",
   "devDependencies": {
     "@types/node": "^20.13.0",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.0",
     "vitepress": "1.2.2"
   },
   "dependencies": {
